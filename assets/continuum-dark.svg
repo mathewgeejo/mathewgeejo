@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 10" role="img" aria-label="Decorative language line">
+  <path d="M2 5H718" fill="none" stroke="#3f3f46" stroke-linecap="round" stroke-width="1"/>
+  <path d="M290 5H334" fill="none" stroke="#8b5cf6" stroke-linecap="round" stroke-width="1.5"/>
+  <path d="M326 5H334" fill="none" stroke="#d2a8ff" stroke-linecap="round" stroke-width="1.5"/>
+  <circle cx="334" cy="5" r="2" fill="#d2a8ff"/>
+</svg>

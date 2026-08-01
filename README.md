@@ -8,6 +8,8 @@ I build local tools, web applications, and the systems behind them. I learn by t
 </p>
 
 <picture>
+  <source media="(prefers-reduced-motion: reduce) and (prefers-color-scheme: dark)" srcset="./assets/continuum-dark.svg">
+  <source media="(prefers-reduced-motion: reduce)" srcset="./assets/continuum-light.svg">
   <source media="(prefers-color-scheme: dark)" srcset="./assets/kinetic-rule-dark.gif">
   <img src="./assets/kinetic-rule-light.gif" width="100%" height="10" alt="">
 </picture>
