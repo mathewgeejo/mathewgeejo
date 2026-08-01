@@ -1,22 +1,51 @@
 # Mathew Geejo
 
-I build software across local AI, desktop tools, and the web.
+I build local tools, web applications, and the systems behind them.
+
+<p align="center">
+  <strong>Rust</strong>&nbsp;&nbsp;&nbsp;&nbsp;<strong>Python</strong>&nbsp;&nbsp;&nbsp;&nbsp;<strong>TypeScript</strong>&nbsp;&nbsp;&nbsp;&nbsp;<strong>Kotlin</strong><br>
+  <sub>native desktop&nbsp;&nbsp;·&nbsp;&nbsp;AI and services&nbsp;&nbsp;·&nbsp;&nbsp;product systems&nbsp;&nbsp;·&nbsp;&nbsp;mobile</sub>
+</p>
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="./assets/kinetic-rule-dark.gif">
+  <img src="./assets/kinetic-rule-light.gif" width="100%" height="10" alt="">
+</picture>
+
+<p align="center"><sub>Also comfortable with JavaScript, Dart, and Java.</sub></p>
 
 ## Selected work
 
-**01 — [EyeOS](https://github.com/mathewgeejo/eyeos)**<br>
-Offline eye control for Windows 11, written in Rust. On-device gaze inference, calibration validation, and deliberately bounded desktop input.
+<sub>01 — RUST / WINDOWS / COMPUTER VISION</sub>
 
-**02 — [CartGenie](https://github.com/mathewgeejo/CartGenie)**<br>
-An e-commerce research assistant with hybrid retrieval, specialist agents, human checkpoints, and a FastAPI/Next.js streaming stack.
+### [EyeOS](https://github.com/mathewgeejo/eyeos)
 
-**03 — [Chary](https://github.com/mathewgeejo/chary)**<br>
-A Windows desktop assistant that combines local-model chat with explicit approvals, an allowlisted native bridge, and local audit logs.
+Offline eye control for Windows: on-device gaze inference, calibrated input, and a deliberately small input surface.
 
-**04 — [NimbusX](https://github.com/mathewgeejo/NimbusX)**<br>
-A NASA Space Apps project that turns historical climate data into location-specific extreme-weather probabilities.
+<sub>02 — PYTHON / TYPESCRIPT / RETRIEVAL</sub>
 
-**05 — [TinkerHub SCET](https://github.com/mathewgeejo/tinkweb)**<br>
-A motion-first Next.js chapter site with a small signed content-admin system.
+### [CartGenie](https://github.com/mathewgeejo/CartGenie)
+
+Shopping research with hybrid retrieval, specialist agents, human checkpoints, and streamed results.
+
+<sub>03 — TYPESCRIPT / RUST / DESKTOP</sub>
+
+### [Chary](https://github.com/mathewgeejo/chary)
+
+A desktop assistant with local-model chat, explicit approvals, and a narrow native bridge.
+
+<sub>04 — PYTHON / JAVASCRIPT / CLIMATE DATA</sub>
+
+### [NimbusX](https://github.com/mathewgeejo/NimbusX)
+
+Historical NASA climate data, turned into location-specific extreme-weather probabilities.
+
+<sub>05 — TYPESCRIPT / NEXT.JS / CMS</sub>
+
+### [TinkerHub SCET](https://github.com/mathewgeejo/tinkweb)
+
+A motion-led chapter site with a small signed content-admin workflow.
+
+---
 
 [All repositories →](https://github.com/mathewgeejo?tab=repositories)
