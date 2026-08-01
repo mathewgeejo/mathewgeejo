@@ -1,116 +1,216 @@
-<!-- Profile README for github.com/mathewgeejo -->
-
-<div align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&amp;weight=700&amp;size=28&amp;duration=3200&amp;pause=900&amp;color=8B5CF6&amp;center=true&amp;vCenter=true&amp;width=620&amp;lines=Hey%2C+I%27m+Mathew+%F0%9F%91%8B;I+build+human-centred+AI+%26+playful+software" alt="Hey, I'm Mathew. I build human-centred AI and playful software." />
-  <br />
-  <sub>Accessibility tools · AI agents · learning experiences · delightful interfaces</sub>
-</div>
+<!--
+  MATHEWGEEJO / TRUST-BOUNDARY SYSTEMS LAB
+  This profile is deliberately built from repository-owned assets and live GitHub telemetry.
+-->
 
 <p align="center">
-  <img src="https://komarev.com/ghpvc/?username=mathewgeejo&amp;label=PROFILE+VISITS&amp;color=8B5CF6&amp;style=for-the-badge" alt="Profile visits" />
-  <a href="https://github.com/mathewgeejo?tab=followers">
-    <img src="https://img.shields.io/github/followers/mathewgeejo?label=FOLLOWERS&amp;style=for-the-badge&amp;color=06B6D4" alt="GitHub followers" />
-  </a>
-  <a href="https://github.com/mathewgeejo?tab=repositories">
-    <img src="https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fapi.github.com%2Fusers%2Fmathewgeejo&amp;query=%24.public_repos&amp;label=PUBLIC%20REPOS&amp;style=for-the-badge&amp;color=22C55E" alt="Public repositories" />
-  </a>
+  <img src="./assets/systems-atlas.svg" width="100%" alt="Mathew Geejo — Trust-Boundary Systems Lab: local perception, agent decisions, bounded automation, and learning feedback." />
 </p>
 
 <p align="center">
-  I turn ambitious ideas into useful, hands-on products—from privacy-first accessibility tech to agentic systems and game-inspired learning tools.
+  <img src="./assets/telemetry.svg" width="100%" alt="Live lab telemetry for Mathew Geejo's GitHub profile." />
 </p>
 
-## 🕹️ The 30-second Build Quest
+```text
+$ cat mission.txt
+I build software for moments where a wrong answer has consequences:
+local accessibility input, tool-using agents, desktop automation, and learning systems.
+
+The interesting work is not making a system look clever.
+It is deciding what that system is allowed to know, do, and fail at.
+```
+
+## `design_constraints.md`
+
+```text
+[01] Keep sensitive input close to the person who created it.
+[02] Make an agent's authority narrower than its apparent intelligence.
+[03] Treat uncertainty as an output, not an implementation detail.
+[04] Prefer a safe pause over an impressive but unsafe guess.
+[05] Design progress loops that help people learn, not just keep clicking.
+```
+
+```mermaid
+flowchart LR
+    H([human agency])
+    H --> A[EyeOS / perception boundary]
+    H --> B[CartGenie / decision boundary]
+    H --> C[Chary / capability boundary]
+    H --> D[Quest Board / feedback boundary]
+```
+
+## `./run-oncall-simulation --trust-boundaries`
+
+You are on call for three systems. Choose your response before opening the result.
 
 <details>
-  <summary><b>A blank repository appears. Which portal do you enter?</b></summary>
+  <summary><code>INC-01 / EYEOS</code> Tracking confidence drops while a dwell-click is active.</summary>
   <br />
 
   <details>
-    <summary>🦀 <b>The accessibility portal</b></summary>
+    <summary><code>A</code> Preserve the click so the interaction feels continuous.</summary>
     <br />
-    Build an offline, safety-first gaze-control experience for Windows.
-    <br /><br />
-    <b>Loot unlocked:</b> +100 human-impact XP
-    <br /><br />
-    <a href="https://github.com/mathewgeejo/eyeos">Enter <b>EyeOS</b> →</a>
+    Incorrect. An uncertain input system must not keep acting on behalf of a person.
   </details>
 
   <details>
-    <summary>🤖 <b>The AI agent portal</b></summary>
+    <summary><code>B</code> Release held input and pause control.</summary>
     <br />
-    Assemble a shopping co-pilot with RAG, specialist agents, and real-time answers.
+    Correct. EyeOS releases held input when tracking is lost and stays paused instead of guessing.
     <br /><br />
-    <b>Loot unlocked:</b> +100 systems-design XP
-    <br /><br />
-    <a href="https://github.com/mathewgeejo/CartGenie">Enter <b>CartGenie</b> →</a>
+    <code>camera -> local landmarks -> CPU gaze inference -> calibration -> bounded desktop input</code>
   </details>
-
-  <details>
-    <summary>⚔️ <b>The learning portal</b></summary>
-    <br />
-    Turn computer-science practice into quests, momentum, and level-ups.
-    <br /><br />
-    <b>Loot unlocked:</b> +100 curiosity XP
-    <br /><br />
-    <a href="https://github.com/mathewgeejo/quest-board">Enter <b>Quest Board</b> →</a>
-  </details>
-
-  <br />
-  <blockquote><b>Achievement unlocked:</b> you found the part of the profile that clicks back. ✨</blockquote>
 </details>
-
-## 🚀 Featured missions
-
-<table>
-  <tr>
-    <td width="50%" valign="top">
-      <h3>🦿 <a href="https://github.com/mathewgeejo/eyeos">EyeOS</a></h3>
-      <p>A safety-first, offline Windows 11 eye-control prototype that keeps raw camera data and predictions on-device.</p>
-      <p><code>Rust</code> <code>Accessibility</code> <code>Local-first</code></p>
-    </td>
-    <td width="50%" valign="top">
-      <h3>🛒 <a href="https://github.com/mathewgeejo/CartGenie">CartGenie</a></h3>
-      <p>An autonomous shopping assistant with hybrid RAG, specialised agents, and a production-minded FastAPI gateway.</p>
-      <p><code>Python</code> <code>LangGraph</code> <code>FastAPI</code></p>
-    </td>
-  </tr>
-  <tr>
-    <td width="50%" valign="top">
-      <h3>⚔️ <a href="https://github.com/mathewgeejo/quest-board">Quest Board</a></h3>
-      <p>A gamified computer-science learning platform designed to make progress feel like an adventure.</p>
-      <p><code>TypeScript</code> <code>Next.js</code> <code>MongoDB</code></p>
-    </td>
-    <td width="50%" valign="top">
-      <h3>✨ <a href="https://github.com/mathewgeejo/chary">Chary</a></h3>
-      <p>A playful desktop character assistant with local-LLM capability and thoughtful safety gates.</p>
-      <p><code>TypeScript</code> <code>Tauri</code> <code>Svelte</code></p>
-    </td>
-  </tr>
-</table>
-
-<p align="center">
-  <a href="https://github.com/mathewgeejo?tab=repositories"><b>Browse every experiment and build →</b></a>
-</p>
-
-## 🧰 Favourite tools in the backpack
-
-<p>
-  <img src="https://skillicons.dev/icons?i=rust,python,ts,nextjs,react,fastapi,mongodb,kotlin,flutter&amp;theme=dark" alt="Rust, Python, TypeScript, Next.js, React, FastAPI, MongoDB, Kotlin, and Flutter" />
-</p>
-
-## 🐍 Contribution arcade
-
-<p>
-  <img src="https://raw.githubusercontent.com/mathewgeejo/mathewgeejo/output/github-contribution-grid-snake-dark.svg" alt="Animated snake eating Mathew's contribution graph" />
-</p>
 
 <details>
-  <summary><b>Behind the scenes</b></summary>
+  <summary><code>INC-02 / CARTGENIE</code> Product evidence conflicts just before a recommendation is finalised.</summary>
   <br />
-  The snake updates automatically from my public contribution graph. Every square it eats is a tiny reminder that consistency beats waiting for a perfect idea.
+
+  <details>
+    <summary><code>A</code> Collapse the disagreement into the most confident-sounding answer.</summary>
+    <br />
+    Incorrect. A fluent answer is not a substitute for a defensible decision.
+  </details>
+
+  <details>
+    <summary><code>B</code> Hold at the human-in-the-loop checkpoint and keep the evidence trace.</summary>
+    <br />
+    Correct. CartGenie is built around retrieval, specialist agents, checkpointing, and resume—not an uninspectable final guess.
+    <br /><br />
+    <code>request -> LangGraph -> agent fan-out -> hybrid RAG -> HITL checkpoint -> streamed response</code>
+  </details>
 </details>
 
-<div align="center">
-  <sub>Thanks for stopping by—feel free to open an issue, start a conversation, or build something curious.</sub>
-</div>
+<details>
+  <summary><code>INC-03 / CHARY</code> A desktop agent requests a higher-risk local action.</summary>
+  <br />
+
+  <details>
+    <summary><code>A</code> Let the model decide; it has already explained why it needs access.</summary>
+    <br />
+    Incorrect. Explanation is not authorisation.
+  </details>
+
+  <details>
+    <summary><code>B</code> Check the capability allowlist, request approval, then record the local audit trail.</summary>
+    <br />
+    Correct. Chary combines a safety gate, bounded native bridge, explicit approval for riskier actions, and local logging.
+    <br /><br />
+    <code>local model -> policy gate -> tool registry -> approval -> Tauri bridge -> audit log</code>
+  </details>
+</details>
+
+<details>
+  <summary><code>INC-04 / QUEST BOARD</code> A learner tries to submit before every task in a quest is complete.</summary>
+  <br />
+
+  <details>
+    <summary><code>A</code> Award partial XP to preserve the momentum.</summary>
+    <br />
+    Incorrect. A progression system loses meaning when its state can drift from the work actually completed.
+  </details>
+
+  <details>
+    <summary><code>B</code> Reject the submission until progress reaches 100%, then update XP and level together.</summary>
+    <br />
+    Correct. Quest Board blocks early submission and treats XP and level changes as one Prisma transaction.
+    <br /><br />
+    <code>quest tasks -> completion check -> transaction -> XP ledger -> level / badge state</code>
+  </details>
+</details>
+
+```text
+RESULT: 04/04 — you design for human agency.
+```
+
+## `casefiles/`
+
+<details open>
+  <summary><code>01 / EYEOS</code> — access without surrender</summary>
+  <br />
+
+  <b>System invariant:</b> raw camera frames, calibration samples, and text predictions stay on-device; live input is unavailable until independently validated calibration passes.
+  <br /><br />
+
+  ```text
+  MediaPipe face landmarks
+    -> rotated eye crops
+    -> OpenVINO CPU head-pose + binocular gaze inference
+    -> per-user quadratic calibration
+    -> dwell state machine
+    -> normal signed-in Windows desktop
+  ```
+
+  It is deliberately scoped away from UAC, the lock screen, and the secure desktop. A six-term, 25-point calibration is followed by a separate five-target validation pass; if a reviewed local model or calibration is missing, the control loop remains paused.
+  <br /><br />
+  <a href="https://github.com/mathewgeejo/eyeos"><b>Inspect EyeOS source -></b></a>
+</details>
+
+<details>
+  <summary><code>02 / CARTGENIE</code> — decision support with a paper trail</summary>
+  <br />
+
+  <b>System invariant:</b> recommendations should be recoverable, observable, and interruptible—not simply plausible.
+  <br /><br />
+
+  ```text
+  Next.js streaming client
+    -> FastAPI gateway (JWT, rate limits, SSE / WebSocket)
+    -> LangGraph conditional loops + subgraph fan-out
+    -> search | pricing | reviews | negotiation | decision agents
+    -> dense + sparse retrieval + compression + cross-encoder reranking
+    -> HITL checkpoint / resume
+  ```
+
+  The system is async-first and typed, with test layers spanning unit, integration, graph, RAG, end-to-end, and load tests. It also exposes observability hooks through LangSmith and OpenTelemetry.
+  <br /><br />
+  <a href="https://github.com/mathewgeejo/CartGenie"><b>Inspect CartGenie source -></b></a>
+</details>
+
+<details>
+  <summary><code>03 / CHARY</code> — a desktop agent with a smaller blast radius</summary>
+  <br />
+
+  <b>System invariant:</b> personality and autonomy never silently widen a model's permissions.
+  <br /><br />
+
+  ```text
+  Pixi.js character runtime + Svelte UI
+    -> local LLM streaming (Ollama / OpenAI-compatible endpoint)
+    -> safety gate + tool registry
+    -> allowlisted Tauri command bridge
+    -> explicit approval for medium / high-risk actions
+    -> local audit log + short-term memory
+  ```
+
+  Chary is a Windows desktop assistant that keeps its native reach deliberately bounded: application launches are allowlisted, and file access is limited to Desktop, Documents, and Downloads.
+  <br /><br />
+  <a href="https://github.com/mathewgeejo/chary"><b>Inspect Chary source -></b></a>
+</details>
+
+<details>
+  <summary><code>04 / QUEST BOARD</code> — learning as a stateful system</summary>
+  <br />
+
+  <b>System invariant:</b> game mechanics should reveal progress, not disguise the absence of it.
+  <br /><br />
+
+  ```text
+  quest interface
+    -> Next.js 14 application
+    -> NextAuth identity + Prisma data layer
+    -> MongoDB learner state
+    -> Zustand client state + Zod validation
+    -> Framer Motion / Three.js feedback loops
+  ```
+
+  Quest Board explores what happens when computer-science learning is treated as an evolving system of quests, identity, state, and feedback rather than a static course page. Its schema models six role paths and four progression layers; completed work updates XP and level state transactionally.
+  <br /><br />
+  <a href="https://github.com/mathewgeejo/quest-board"><b>Inspect Quest Board source -></b></a>
+</details>
+
+<hr />
+
+<p align="center">
+  <code>Interested in an architecture decision, a safety boundary, or a strange prototype? Start with a case file.</code>
+</p>

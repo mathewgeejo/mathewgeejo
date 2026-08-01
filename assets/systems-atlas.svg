@@ -1,0 +1,54 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 390" role="img" aria-labelledby="title description">
+  <title id="title">Mathew Geejo Trust-Boundary Systems Lab</title>
+  <desc id="description">A systems map connecting local perception, agent decisions, bounded automation, and learning feedback.</desc>
+  <defs>
+    <linearGradient id="background" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#050913"/>
+      <stop offset=".52" stop-color="#0b1422"/>
+      <stop offset="1" stop-color="#111126"/>
+    </linearGradient>
+    <linearGradient id="trace" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#58e6b4"/>
+      <stop offset=".48" stop-color="#6ce0ff"/>
+      <stop offset="1" stop-color="#b99aff"/>
+    </linearGradient>
+    <pattern id="grid" width="30" height="30" patternUnits="userSpaceOnUse">
+      <path d="M 30 0 L 0 0 0 30" fill="none" stroke="#80cbff" stroke-opacity=".06" stroke-width="1"/>
+    </pattern>
+  </defs>
+  <rect width="1200" height="390" rx="18" fill="url(#background)"/>
+  <rect width="1200" height="390" rx="18" fill="url(#grid)"/>
+  <rect x="1" y="1" width="1198" height="388" rx="17" fill="none" stroke="#6ce0ff" stroke-opacity=".3"/>
+
+  <text x="58" y="64" fill="#d7f6ff" font-family="ui-monospace, SFMono-Regular, Consolas, monospace" font-size="17" font-weight="700" letter-spacing="2">MATHEW_GEEJO / TRUST-BOUNDARY SYSTEMS LAB</text>
+  <text x="58" y="98" fill="#87a8b8" font-family="ui-monospace, SFMono-Regular, Consolas, monospace" font-size="14">local perception / evidence-backed decisions / bounded autonomy / durable learning loops</text>
+  <text x="1142" y="64" fill="#58e6b4" font-family="ui-monospace, SFMono-Regular, Consolas, monospace" font-size="12" font-weight="700" text-anchor="end">STATUS: BUILDING</text>
+  <path d="M 58 122 H 1142" stroke="url(#trace)" stroke-opacity=".75" stroke-width="2"/>
+
+  <circle cx="102" cy="188" r="20" fill="#07111d" stroke="#58e6b4" stroke-width="2"/>
+  <text x="102" y="193" fill="#58e6b4" font-family="ui-monospace, SFMono-Regular, Consolas, monospace" font-size="14" font-weight="700" text-anchor="middle">01</text>
+  <path d="M 122 188 H 298" stroke="#58e6b4" stroke-opacity=".7" stroke-width="2"/>
+  <rect x="174" y="152" width="214" height="74" rx="8" fill="#091925" stroke="#58e6b4" stroke-opacity=".55"/>
+  <text x="194" y="181" fill="#d7f6ff" font-family="ui-monospace, SFMono-Regular, Consolas, monospace" font-size="16" font-weight="700">PERCEPTION</text>
+  <text x="194" y="207" fill="#89a8b7" font-family="ui-monospace, SFMono-Regular, Consolas, monospace" font-size="13">EyeOS / local gaze control</text>
+
+  <circle cx="430" cy="188" r="20" fill="#07111d" stroke="#6ce0ff" stroke-width="2"/>
+  <text x="430" y="193" fill="#6ce0ff" font-family="ui-monospace, SFMono-Regular, Consolas, monospace" font-size="14" font-weight="700" text-anchor="middle">02</text>
+  <path d="M 450 188 H 626" stroke="#6ce0ff" stroke-opacity=".7" stroke-width="2"/>
+  <rect x="502" y="152" width="214" height="74" rx="8" fill="#091925" stroke="#6ce0ff" stroke-opacity=".55"/>
+  <text x="522" y="181" fill="#d7f6ff" font-family="ui-monospace, SFMono-Regular, Consolas, monospace" font-size="16" font-weight="700">DECISION</text>
+  <text x="522" y="207" fill="#89a8b7" font-family="ui-monospace, SFMono-Regular, Consolas, monospace" font-size="13">CartGenie / agent graph</text>
+
+  <circle cx="758" cy="188" r="20" fill="#07111d" stroke="#b99aff" stroke-width="2"/>
+  <text x="758" y="193" fill="#b99aff" font-family="ui-monospace, SFMono-Regular, Consolas, monospace" font-size="14" font-weight="700" text-anchor="middle">03</text>
+  <path d="M 778 188 H 954" stroke="#b99aff" stroke-opacity=".7" stroke-width="2"/>
+  <rect x="830" y="152" width="214" height="74" rx="8" fill="#111226" stroke="#b99aff" stroke-opacity=".55"/>
+  <text x="850" y="181" fill="#d7f6ff" font-family="ui-monospace, SFMono-Regular, Consolas, monospace" font-size="16" font-weight="700">CAPABILITY</text>
+  <text x="850" y="207" fill="#a8a1c8" font-family="ui-monospace, SFMono-Regular, Consolas, monospace" font-size="13">Chary / policy-gated desktop</text>
+
+  <path d="M 102 278 H 1098" stroke="#6ce0ff" stroke-opacity=".16" stroke-width="1" stroke-dasharray="6 8"/>
+  <text x="102" y="307" fill="#f2cb75" font-family="ui-monospace, SFMono-Regular, Consolas, monospace" font-size="13" font-weight="700">04 / FEEDBACK</text>
+  <text x="102" y="335" fill="#d7f6ff" font-family="ui-monospace, SFMono-Regular, Consolas, monospace" font-size="16" font-weight="700">QUEST BOARD</text>
+  <text x="292" y="335" fill="#89a8b7" font-family="ui-monospace, SFMono-Regular, Consolas, monospace" font-size="14">computer-science learning rendered as state, quests, and feedback</text>
+  <text x="1098" y="335" fill="#80a5b5" font-family="ui-monospace, SFMono-Regular, Consolas, monospace" font-size="12" text-anchor="end">HUMAN AGENCY STAYS IN THE LOOP</text>
+</svg>
