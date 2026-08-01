@@ -1,6 +1,6 @@
 # Mathew Geejo
 
-I build local tools, web applications, and the systems behind them.
+I build local tools, web applications, and the systems behind them. I learn by turning interesting questions into working projects—especially around open-source AI/ML, developer tools, and thoughtful interaction design.
 
 <p align="center">
   <strong>Rust</strong>&nbsp;&nbsp;&nbsp;&nbsp;<strong>Python</strong>&nbsp;&nbsp;&nbsp;&nbsp;<strong>TypeScript</strong>&nbsp;&nbsp;&nbsp;&nbsp;<strong>Kotlin</strong><br>
@@ -45,6 +45,12 @@ Historical NASA climate data, turned into location-specific extreme-weather prob
 ### [TinkerHub SCET](https://github.com/mathewgeejo/tinkweb)
 
 A motion-led chapter site with a small signed content-admin workflow.
+
+## Outside the roadmap
+
+I am a tinkerer first. I like following open-source AI/ML rabbit holes, turning half-formed ideas into experiments, and sharing the useful parts when they work. I have a soft spot for strange prototypes, thoughtful UX, and the moment a messy idea finally clicks.
+
+If you are building something curious, I would love to see it.
 
 ---
 
