@@ -18,35 +18,41 @@ I build local tools, web applications, and the systems behind them. I learn by t
 
 ## Selected work
 
-<sub>01 — RUST / WINDOWS / COMPUTER VISION</sub>
+<sub>01 — PYTHON / TYPESCRIPT / CLIMATE DATA</sub>
+
+### [NimbusX](https://github.com/mathewgeejo/NimbusX)
+
+A climate-risk workspace for buildings and infrastructure, using NASA weather data to assess hazards and produce evidence-backed reports.
+
+<sub>02 — RUST / WINDOWS / COMPUTER VISION</sub>
 
 ### [EyeOS](https://github.com/mathewgeejo/eyeos)
 
 Offline eye control for Windows: on-device gaze inference, calibrated input, and a deliberately small input surface.
 
-<sub>02 — PYTHON / TYPESCRIPT / RETRIEVAL</sub>
+<sub>03 — DART / FLUTTER / FIREBASE</sub>
 
-### [CartGenie](https://github.com/mathewgeejo/CartGenie)
+### [JustUs](https://github.com/mathewgeejo/JustUs)
 
-Shopping research with hybrid retrieval, specialist agents, human checkpoints, and streamed results.
+A couples app for staying connected through daily questions, mood check-ins, shared journals, and love letters.
 
-<sub>03 — TYPESCRIPT / RUST / DESKTOP</sub>
+<sub>04 — KOTLIN / ANDROID / UI/UX</sub>
 
-### [Chary](https://github.com/mathewgeejo/chary)
+### [Reelateable](https://github.com/mishalshanavas/Reelateable)
 
-A desktop assistant with local-model chat, explicit approvals, and a narrow native bridge.
+A playful counter-productivity app that gamifies reel watching with goals, streaks, and reminders. Built with Mishal Shanavas; I contributed the UI/UX.
 
-<sub>04 — PYTHON / JAVASCRIPT / CLIMATE DATA</sub>
+<sub>05 — TYPESCRIPT / REACT / THREE.JS</sub>
 
-### [NimbusX](https://github.com/mathewgeejo/NimbusX)
+### [3D Stained Glass Text App](https://github.com/mathewgeejo/3D-Stained-Glass-Text-App)
 
-Historical NASA climate data, turned into location-specific extreme-weather probabilities.
+A real-time studio that turns text and pixel art into stained glass, with editable patterns, colored lighting, and image exports.
 
-<sub>05 — TYPESCRIPT / NEXT.JS / CMS</sub>
+<sub>06 — KOTLIN / ANDROID / UI AUTOMATION</sub>
 
-### [TinkerHub SCET](https://github.com/mathewgeejo/tinkweb)
+### [DroidProbe](https://github.com/mathewgeejo/DroidProbe)
 
-A motion-led chapter site with a small signed content-admin workflow.
+An Android testing tool that explores a sample app, reproduces failures, reduces the steps needed to trigger them, and exports regression tests.
 
 ## Outside the roadmap
 
